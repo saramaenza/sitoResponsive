@@ -1,0 +1,462 @@
+body {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 16px !important;
+    letter-spacing: 0.1px !important;
+}
+
+nav {
+    background-color: black;
+    letter-spacing: 5px;
+    font-weight: 600;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1.2rem !important;
+}
+
+.navbar-toggler {
+    color:#facc52 !important;
+    border-color: black !important;
+    margin-right: 2rem !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0px 0px !important;
+}
+
+a img {
+    width: 8rem;
+}
+
+.verticale {
+    display: none;
+}
+
+.orizzontale {
+    display: inline;
+}
+
+.descrizione-sito {
+    width: 50%;
+}
+
+nav a {
+    color:#facc52 !important;
+}
+
+.nav-link:after {
+    display: block;
+    content: "";
+    height: 1.3px;
+    width: 0%;
+    background-color: #facc52;
+    transition: width .4s ease-in-out;
+}
+
+.nav-link:hover:after, .nav-link:focus:after {
+    width: 100%;
+}
+
+.carousel {
+    padding-top: 5rem !important;
+    padding-bottom: 3rem !important;
+    margin: auto !important;
+}
+
+.bg-light p {
+    padding-top: 15%;
+    padding-left: 5%;
+    font-family: 'Raleway', serif;
+    font-weight: bolder;
+    position: absolute; 
+    font-size: 3em; 
+    color: black;
+    text-shadow:-1px 1px black;
+}
+
+.bottone-home .btn-outline-primary {
+    margin-top: 10rem;
+    color: #facc52;
+    border-color: black;
+    font-size: 16px;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px !important;
+    border-radius: 0px !important;
+    font-weight: 600;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    opacity: 100% !important;
+    box-shadow: -3px 2px 5px black;
+}
+
+.bg-light img {
+    width: 100%;
+}
+
+.home-div {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    line-height: 26px !important;
+}
+
+.home-div .col {
+    padding-top: 3rem;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    text-align: center;
+}
+
+hr {
+    width:25%; 
+    margin: auto !important; 
+    background-color:black;
+    text-align: center;
+    opacity: 90% !important;
+    border: 0.7px solid !important; 
+}
+
+.golden-div {
+    background-color:#ffcd43b6;
+    line-height: normal !important;
+}
+
+.p-date {
+    margin: auto;
+}
+
+.p-date p {
+    padding-top: 13%;
+    font-weight: bolder;
+    line-height: 60px;
+    font-size: 2.5rem;
+}
+
+table {
+    margin-left: 25%;
+    width: 25rem !important;
+    font-size: 1.3rem;
+}
+
+td:first-child {
+    width: 35%;
+}
+
+td:last-child {
+    width: 65%;
+    padding-left: 1.5rem !important;
+}
+
+.opera b {
+    font-size: 20px !important;
+}
+
+form {
+    width: 45%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+form input {
+    margin-bottom: 1rem;
+}
+
+form .btn-outline-primary {
+    color: black;
+    background-color: white;
+    border-color: black;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, 
+.btn-outline-primary:visited, .btn-outline-primary::after, 
+.btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {
+    background-color:#facc52  !important; 
+    border-color: black !important; 
+    color: black !important; 
+    font-weight: bold !important;
+    border-width: 1.3px !important;
+}
+
+.btn-check:active + .btn-outline-primary, .btn-check:checked + .btn-outline-primary, 
+.btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
+    background-color:#facc52  !important; 
+    border-color: black !important; 
+    color: black !important; 
+    font-weight: bold !important;
+    border-width: 1.3px !important;
+    box-shadow: 0 0px 0px !important;
+}
+
+.form-control:focus {
+  border-color: #facc52 !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #facc52 !important;
+}
+
+footer {
+    margin-top: 5rem;
+    background-color: black;
+    color: #facc52;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+footer nav {
+    padding-bottom: 3rem !important;
+    padding-top: 3rem !important;
+    border-right: #facc52 solid 1px;
+}   
+
+footer nav:last-of-type {
+    border-right: 0px;
+}
+
+footer .nav-link {
+    padding-right: 0;
+}
+
+footer .nav-link:hover:after, .nav-link:focus:after {
+    width: 35%;
+}
+
+nav .container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    width: 100% !important;
+    margin: auto !important;
+}
+
+nav p:first-of-type {
+    font-size: 1rem;
+}
+
+footer nav img {
+    width: 45px;
+}
+
+nav p {
+    font-size: 0.8rem;
+}
+
+.material-icons {
+    padding-right: 0.1rem;
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .bottone-home {
+        display: none;
+    }
+}
+
+
+/*smartphone*/
+@media screen and (max-device-width: 767px) {
+    .orizzontale {
+        display: none !important;
+    }
+
+    .verticale {
+        display: inline !important;
+    }
+
+    .bottone-home {
+        padding: 0 !important;
+        padding-top: 72% !important;
+        padding-left: 32% !important;
+    }
+
+    @media (orientation:landscape) {
+        .orizzontale {
+            display: inline !important;
+        }
+    
+        .verticale {
+            display: none !important;
+        }
+
+        .bottone-home {
+            padding: 0 !important;
+            padding-top: 10% !important;
+            padding-left: 7% !important;
+        }
+
+    }
+
+    .bottone-home .btn-outline-primary {
+        font-size: 24px !important;
+    }
+
+    .col {
+       flex: none !important;
+    } 
+
+    .p-date p {
+        padding-top: 0 !important;
+    }
+
+    .golden-div .col {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .golden-div table {
+        margin-left: 30% !important;
+    }
+
+    .mappa {
+        text-align: center !important;
+    }
+
+    iframe {
+        width: "400";
+        height: "300";
+    }
+
+    .descrizione-luogo {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin: auto !important;
+    }
+
+    .col b {
+        text-align: center !important;
+    }
+
+    .opera p {
+        display: none;
+    }
+
+    .opera {
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem !important;
+        font-size: 18px !important;
+    }
+
+    .opera b {
+        font-size: 20px;
+    }
+
+    .opera img {
+        width: 380px;
+    }
+
+    footer nav {
+        font-size: 18px !important;
+        text-align: center !important;
+        padding-bottom: 1rem !important;
+        padding-top: 2rem !important;
+    }
+
+    footer nav .ms-5 {
+        margin-left: 0 !important;
+    }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1020px){
+    .bottone-home .btn-outline-primary {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 1190px) {
+    .descrizione-sito {
+        display: none;
+    }
+}
+
+/*smartphone e tablet*/
+@media (max-width: 1023px){
+    .collapse {
+        padding-top: 2rem !important;
+        text-align: right !important;
+        margin-left: 0 !important;
+    }
+
+    @media (min-width: 992px) {
+        .collapse {
+            padding-top: 0 !important;
+            margin-right: 10px !important;
+        }
+    }
+
+    .nav-link:hover:after, .nav-link:focus:after {
+        width: 0 !important;
+    }
+
+    .carousel {
+        display: none !important;
+    }
+
+    .col {
+        flex: none !important;
+     } 
+ 
+     .p-date p {
+         padding-top: 0 !important;
+     }
+ 
+     .golden-div .col {
+         padding-right: 0 !important;
+         padding-left: 0 !important;
+     }
+ 
+     .golden-div table {
+         margin-left: 30% !important;
+     }
+ 
+     .mappa {
+         text-align: center !important;
+     }
+ 
+     iframe {
+         width: "400";
+         height: "300";
+     }
+ 
+     .descrizione-luogo {
+         padding-left: 0 !important;
+         padding-right: 0 !important;
+         margin: auto !important;
+     }
+ 
+     .col b {
+         text-align: center !important;
+     }
+ 
+     .opera p {
+         display: none;
+     }
+ 
+     .opera {
+         margin: auto;
+         text-align: center;
+         padding-top: 1rem !important;
+         font-size: 18px !important;
+     }
+ 
+     .opera b {
+         font-size: 20px;
+     }
+ 
+     .opera img {
+         width: 380px;
+     }
+ 
+     footer nav {
+         font-size: 18px !important;
+         text-align: center !important;
+         padding-bottom: 1rem !important;
+         padding-top: 2rem !important;
+     }
+ 
+     footer nav .ms-5 {
+         margin-left: 0 !important;
+     }
+}
